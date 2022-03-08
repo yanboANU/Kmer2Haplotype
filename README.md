@@ -18,12 +18,14 @@ Then clone the **Kmer2Haplotype** repository to your machine.
 The input of **Kmer2Haplotype**: 
 <pre><code>
 (1) NGS short reads: can be fasta, fastq, either gzipped or not.  
-(2) TGS long reads
+(2) TGS long reads: can be fasta, fastq
 </code></pre>
 
 
-# Ouput Format
+# Output Format
 
- 
-
- 
+<pre><code>
+H1\_contigs.fasta
+H2\_contigs.fasta
+unphasd.fasta
+</code></pre>
