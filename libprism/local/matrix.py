@@ -7,8 +7,8 @@
 #!/bin/bash
 import os
 import sys
-import tools
-
+#import tools
+from libprism.local import tools
 
 def load_all_edges_from_matrix(Filename):
 

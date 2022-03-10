@@ -7,7 +7,8 @@
 #!/bin/bash
 import os
 import sys
-import tools
+#import  tools
+from libprism.local import tools
 #import build_matrix_for_PairEndReads
 
 def assign_ID_2_kmerPair(kmerPair):

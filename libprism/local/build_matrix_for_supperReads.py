@@ -9,7 +9,8 @@ import threading
 import sys
 ##import Queue
 import queue
-import tools
+#import tools
+from libprism.local import tools
 from multiprocessing import Process
 # https://blog.csdn.net/zx8167107/article/details/81083249
 

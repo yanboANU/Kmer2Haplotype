@@ -7,9 +7,10 @@
 #!/bin/bash
 import os
 import sys
-import tools
+#import tools
 import networkx as nx
 
+from libprism.local import tools
 #type(nx.Graph()) <class 'networkx.classes.graph.Graph'>
 # add node or edge
 # 'add_cycle', 'add_edge', 'add_edges_from', 'add_node', 'add_nodes_from', 'add_path', 'add_star', 'add_weighted_edges_from'

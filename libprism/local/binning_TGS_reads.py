@@ -12,10 +12,10 @@ import sys
 from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
-import tools
+#import tools
 
 #import build_matrix_for_supperReads
-
+from libprism.local import tools
 
 def read_phased_ID(filename):
 

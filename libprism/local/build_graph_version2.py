@@ -13,16 +13,16 @@ import sys
 import logging
 import time
 import networkx as nx
-import tools
+#import tools
 from networkx.drawing.nx_pydot import write_dot
 import logging
 import pdb
 
-
+from libprism.local import tools
 from libprism.local import group_function
 from libprism.local import matrix
 from libprism.local import myGraph
-from libprism.local import train
+#from libprism.local import train
 
 
 #tricks, or remove noisy
